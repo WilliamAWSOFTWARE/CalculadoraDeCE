@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1562875466 source:c:\users\william\desktop\programacion en c\calculadora de circuitos\functions.c
+	<math.h>
+
+1562875455 source:c:\users\william\desktop\programacion en c\calculadora de circuitos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"functions.h"
+
+1562801444 c:\users\william\desktop\programacion en c\calculadora de circuitos\functions.h
+
