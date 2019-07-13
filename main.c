@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <malloc.h>
+#include "LibreriaCalculadora.h"
 #include "functions.h"
 
 char grafica[3][3];
