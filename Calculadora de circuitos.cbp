@@ -22,10 +22,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="LibreriaCalculadora.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="LibreriaCalculadora.h" />
 		<Unit filename="functions.c">
 			<Option compilerVar="CC" />
 		</Unit>
