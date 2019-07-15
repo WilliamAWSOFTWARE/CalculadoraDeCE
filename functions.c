@@ -64,10 +64,23 @@ int detectar_nodos(char grafica[3][3], int tc, int tf){
         }
     }
     return ndn;
+}
+char dibujar_nodo(char g[0][0],int cx, int cy){
 
+}
 
+char dibujar_fuente_voltaje(char g[][0],int cx, int cy){
+    if(g[cx][cy]=='X'){
+        return 'F';
+    }else{
+        return '0';
+    }
+}
 
-
-
-
+char dibujar_resistencia(char g[0][0],int cx, int cy){
+    if(g[cx][cy]=='X'){
+        return 'R';
+    }else{
+        return '0';
+    }
 }

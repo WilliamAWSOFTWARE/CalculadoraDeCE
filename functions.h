@@ -26,3 +26,4 @@ float divisores_de_voltaje(float resistencias[], float corriente);
 float divisores_de_corriente(float resistencias[], float voltaje);
 float resistencia_equivalente(float resistencias[]);
 int detectar_nodos(char g[3][3], int tamano_columna, int tamano_filas);
+char dibujar_fuente_voltaje(char g[0][0],int cx, int cy);
