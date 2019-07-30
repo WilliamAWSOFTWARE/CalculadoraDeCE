@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1564448655 source:c:\users\osval\desktop\proyecto programación\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LibreriaCalculadora.h"
+
+1564448232 source:c:\users\osval\desktop\proyecto programación\calculadora\libreriacalculadora.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"LibreriaCalculadora.h"
+
+1564448164 c:\users\osval\desktop\proyecto programación\calculadora\libreriacalculadora.h
+
