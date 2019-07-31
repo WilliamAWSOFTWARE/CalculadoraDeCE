@@ -11,7 +11,7 @@
 
 1563150337 c:\users\william\desktop\programacion en c\calculadora de circuitos\functions.h
 
-1564441152 source:c:\users\william\documents\github\calculadoradece\functions.c
+1564494597 source:c:\users\william\documents\github\calculadoradece\functions.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -19,7 +19,7 @@
 	"functions.h"
 	<windows.h>
 
-1564442035 source:c:\users\william\documents\github\calculadoradece\main.c
+1564444087 source:c:\users\william\documents\github\calculadoradece\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>

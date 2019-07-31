@@ -154,3 +154,4 @@ void guarda_circuito(char grafica[][20],FILE * circuito){
 }
 
 
+

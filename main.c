@@ -13,34 +13,16 @@ int main()
 
 {
 FILE * circuito;
-//EL USUARIO DEFINE EL TAMAÑO DE LA MATRIZ
-/*do{
-    printf("Actualmente no se soporta un tama%co mayor a 20! ni menor a 10!",164);
-    printf("\nDefina el tama%co de la matriz(No mayor a 20, no menor a 10):\n",164);
-    scanf("%d",&tm);
-}while(tm<10 || tm>20);*/
-//Si EL RESULTADO QUE SALE NO ES CORRECTO, SE VALIDA AHI ARRIBA ^^^^^^^
 char grafica[tm][tm];
 //AQUI SE LE ASIGNAN VALORES POR DEFAULT LA MATRIZ
 circuito=fopen("circuito.txt","r");
 if(circuito==NULL){
-    MessageBox(NULL,"Aviso","No existe un archivo de circuito!!!\nSe va a proceder a crearlo!",MB_OK | MB_ICONSTOP);
+    MessageBox(NULL,"No existe un archivo de circuito!!!\nSe va a proceder a crearlo!","AVISO!",MB_OK | MB_ICONSTOP);
     //printf("No existe un archivo de circuito!!!\nSe va a proceder a crearlo\n");
     system("PAUSE");
     //SE CREARA EL ARCHIVO DONDE SE VA A INGRESAR EL CIRCUITO
-    circuito=fopen("circuito.txt","w");
-    fclose(circuito);
 
-}else{
-    printf("El archivo existe!!\nDesea modificarlo o sobreescribirlo?\n\n1.Modificar\n2.Eliminar y abrir nuevo\n\nRespuesta:");
-    scanf("%d",&resp);
-    if(resp==1){
-        circuito=fopen("circuito.txt","r");
-        fgets(grafica,(tm*tm)+1,circuito);
-
-    }else if(resp==2){
-        circuito=fopen("circuito.txt","w+t");
-
+    circuito=fopen("circuito.txt","w+t");
         for(fil=0;fil<tm;fil++){
             for(col=0;col<tm;col++){
                 if(fil==0 && col>=0 && col<=tm-1){
@@ -58,12 +40,38 @@ if(circuito==NULL){
                 }
             }
         }
-        circuito=fopen("circuito.txt","a+t");
+        fputs(grafica,circuito);
+        fclose(circuito);
+}else{
+    printf("El archivo existe!!\nDesea modificarlo o sobreescribirlo?\n\n1.Modificar\n2.Eliminar y abrir nuevo\n\nRespuesta:");
+    scanf("%d",&resp);
+    if(resp==1){
+        circuito=fopen("circuito.txt","r");
+        fgets(grafica,(tm*tm)+1,circuito);
+
+    }else if(resp==2){
+        circuito=fopen("circuito.txt","w+t");
+        for(fil=0;fil<tm;fil++){
+            for(col=0;col<tm;col++){
+                if(fil==0 && col>=0 && col<=tm-1){
+                    grafica[fil][col]='0';
+                }else if(fil!=0 && col==0){
+                    grafica[fil][col]='0';
+                }else if(fil==tm-1 && col==tm-1){
+                    grafica[fil][col]='0';
+                }else if(fil==tm-1 && col!=tm-1){
+                    grafica[fil][col]='0';
+                }else if(col==tm-1 && fil>=0 && fil<=tm-1){
+                    grafica[fil][col]='0';
+                }else{
+                    grafica[fil][col]='X';
+                }
+            }
+        }
         fputs(grafica,circuito);
         fclose(circuito);
     }
 }
-fclose(circuito);
 
 
 
