@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1564667201 source:c:\users\osval\pycharmprojects\calculadoradece\proyecto_final\libreria2.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"Libreria2.h"
+
+1564667201 c:\users\osval\pycharmprojects\calculadoradece\proyecto_final\libreria2.h
+
+1564670004 source:c:\users\osval\pycharmprojects\calculadoradece\minunit_proyecto_final\main.c
+	"../Proyecto_Final/Libreria2.h"
+	"minunit.h"
+	<string.h>
+
+1555425195 c:\users\osval\pycharmprojects\calculadoradece\minunit_proyecto_final\minunit.h
+	<Windows.h>
+	<unistd.h>
+	<time.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<string.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<stdio.h>
+	<math.h>
+

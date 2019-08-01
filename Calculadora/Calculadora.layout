@@ -2,9 +2,19 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="LibreriaCalculadora.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="LibreriaCalculadora.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="32306" topLine="49" />
+			<Cursor1 position="2309" topLine="67" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3357" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="LibreriaCalculadora.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="32392" topLine="1033" />
 		</Cursor>
 		<Folding>
 			<Collapse line="6" />
@@ -16,52 +26,6 @@
 			<Collapse line="248" />
 			<Collapse line="270" />
 			<Collapse line="292" />
-			<Collapse line="315" />
-			<Collapse line="329" />
-			<Collapse line="370" />
-			<Collapse line="411" />
-			<Collapse line="414" />
-			<Collapse line="470" />
-			<Collapse line="473" />
-			<Collapse line="476" />
-			<Collapse line="479" />
-			<Collapse line="482" />
-			<Collapse line="693" />
-			<Collapse line="715" />
-			<Collapse line="737" />
-			<Collapse line="759" />
-			<Collapse line="785" />
-			<Collapse line="799" />
-			<Collapse line="840" />
-			<Collapse line="881" />
-			<Collapse line="884" />
-			<Collapse line="943" />
-			<Collapse line="946" />
-			<Collapse line="949" />
-			<Collapse line="952" />
-			<Collapse line="955" />
-			<Collapse line="1114" />
-			<Collapse line="1136" />
-			<Collapse line="1158" />
-			<Collapse line="1180" />
-			<Collapse line="1206" />
-			<Collapse line="1220" />
-			<Collapse line="1223" />
-			<Collapse line="1226" />
-			<Collapse line="1267" />
-			<Collapse line="1325" />
-			<Collapse line="1333" />
-			<Collapse line="1346" />
 		</Folding>
-	</File>
-	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3320" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="LibreriaCalculadora.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2289" topLine="65" />
-		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
