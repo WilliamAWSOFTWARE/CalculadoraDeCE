@@ -28,3 +28,32 @@
 	<string.h>
 	"Libreria2.h"
 
+1564689224 source:c:\users\william\desktop\calculadoradece-master\proyecto_final\libreria1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	"Libreria1.h"
+	"Libreria2.h"
+	<windows.h>
+
+1564674110 c:\users\william\desktop\calculadoradece-master\proyecto_final\libreria1.h
+
+1564674110 c:\users\william\desktop\calculadoradece-master\proyecto_final\libreria2.h
+
+1564674110 source:c:\users\william\desktop\calculadoradece-master\proyecto_final\libreria2.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"Libreria2.h"
+
+1564674110 source:c:\users\william\desktop\calculadoradece-master\proyecto_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	"Libreria1.h"
+	"Libreria2.h"
+	<windows.h>
+
