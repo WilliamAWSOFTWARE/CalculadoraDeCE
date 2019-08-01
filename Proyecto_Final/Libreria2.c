@@ -1151,7 +1151,7 @@ void histoialvoltaje_corr_pot(VOLTAJE *voltaje, int a){
         fputs("Potencia(P): ", historial);
         fputs(itoa((voltaje+a)->P, arreglo, 10),historial);
         fputs("\nCorriente(I): ", historial);
-        fputs(itoa((voltaje+a)->V, arreglo, 10),historial);
+        fputs(itoa((voltaje+a)->I, arreglo, 10),historial);
         fputs("\nEcuacion: V = P/I", historial);
         fputs("\nResultado: ", historial);
         fputs(itoa((voltaje+a)->V, arreglo, 10),historial);}
