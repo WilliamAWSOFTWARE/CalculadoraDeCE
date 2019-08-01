@@ -1,0 +1,81 @@
+
+*****************************
+
+Corriente(I): 5
+Resistencia(R): 10
+Ecuacion: V = R*I
+Resultado: 50
+********************************
+
+Potencia(P): 80
+Corriente(I): 5
+Ecuacion: V = P/I
+Resultado: 5
+
+********************************
+
+Potencia(P): 150
+Resistencia (R): 45
+Ecuacion: V^2 = P*R
+Resultado: 82
+
+********************************
+
+Resistencia 1(R1): 20
+Resistencia 2(R2): 10
+Voltaje de fuente (Vs): 30
+Ecuacion: V = (R1/R1+R2)*Vs
+Resultado: 20
+*****************************
+
+Voltaje(V): 20
+Resistencia(R): 10
+Ecuacion: I = V/R
+Resultado: 2
+********************************
+
+Potencia(P): 75
+Voltaje(V): 40
+Ecuacion: I = P/V
+Resultado: 1
+
+********************************
+
+Potencia(P): 80
+Resistencia (R): 25
+Ecuacion: I^2 = P/R
+Resultado: 1
+
+********************************
+
+Resistencia 1(R1): 25
+Resistencia 2(R2): 30
+Corriente de fuente (Is): 15
+Ecuacion: I = (R2/R1+R2)*Is
+Resultado: 8*****************************
+
+Voltaje(V): 30
+Corriente(I): 16
+Ecuacion: R = V/I
+Resultado: 1
+
+********************************
+
+Potencia(P): 36
+Corriente(I): 0
+Ecuacion: R = P/I^2
+Resultado: 2
+
+********************************
+
+Resistencia 1(R1): 10
+Resistencia 2(R2): 6
+Ecuacion: R = R1+R2
+Resultado: 16
+
+********************************
+
+Resistencia 1(R1): 50
+Resistencia 2(R2): 50
+Ecuacion: R = (R1*R2)/R1+R2
+Resultado: 25

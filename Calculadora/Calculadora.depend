@@ -12,3 +12,17 @@
 
 1564448164 c:\users\osval\desktop\proyecto programación\calculadora\libreriacalculadora.h
 
+1564637109 source:c:\users\osval\pycharmprojects\calculadoradece\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LibreriaCalculadora.h"
+
+1564637023 c:\users\osval\pycharmprojects\calculadoradece\calculadora\libreriacalculadora.h
+
+1564637023 source:c:\users\osval\pycharmprojects\calculadoradece\calculadora\libreriacalculadora.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"LibreriaCalculadora.h"
+

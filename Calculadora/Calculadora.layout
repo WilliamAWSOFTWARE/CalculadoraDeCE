@@ -2,51 +2,66 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="LibreriaCalculadora.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="LibreriaCalculadora.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1210" topLine="29" />
-		</Cursor>
-	</File>
-	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1271" topLine="26" />
-		</Cursor>
-	</File>
-	<File name="LibreriaCalculadora.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="12702" topLine="0" />
+			<Cursor1 position="32306" topLine="49" />
 		</Cursor>
 		<Folding>
-			<Collapse line="5" />
-			<Collapse line="8" />
-			<Collapse line="11" />
-			<Collapse line="14" />
-			<Collapse line="17" />
-			<Collapse line="210" />
-			<Collapse line="213" />
-			<Collapse line="216" />
-			<Collapse line="219" />
-			<Collapse line="222" />
-			<Collapse line="418" />
-			<Collapse line="421" />
-			<Collapse line="424" />
-			<Collapse line="427" />
-			<Collapse line="430" />
-			<Collapse line="575" />
-			<Collapse line="590" />
-			<Collapse line="594" />
-			<Collapse line="598" />
-			<Collapse line="640" />
-			<Collapse line="699" />
-			<Collapse line="714" />
-			<Collapse line="756" />
-			<Collapse line="798" />
-			<Collapse line="802" />
-			<Collapse line="861" />
-			<Collapse line="876" />
-			<Collapse line="918" />
-			<Collapse line="960" />
-			<Collapse line="964" />
+			<Collapse line="6" />
+			<Collapse line="9" />
+			<Collapse line="12" />
+			<Collapse line="15" />
+			<Collapse line="18" />
+			<Collapse line="226" />
+			<Collapse line="248" />
+			<Collapse line="270" />
+			<Collapse line="292" />
+			<Collapse line="315" />
+			<Collapse line="329" />
+			<Collapse line="370" />
+			<Collapse line="411" />
+			<Collapse line="414" />
+			<Collapse line="470" />
+			<Collapse line="473" />
+			<Collapse line="476" />
+			<Collapse line="479" />
+			<Collapse line="482" />
+			<Collapse line="693" />
+			<Collapse line="715" />
+			<Collapse line="737" />
+			<Collapse line="759" />
+			<Collapse line="785" />
+			<Collapse line="799" />
+			<Collapse line="840" />
+			<Collapse line="881" />
+			<Collapse line="884" />
+			<Collapse line="943" />
+			<Collapse line="946" />
+			<Collapse line="949" />
+			<Collapse line="952" />
+			<Collapse line="955" />
+			<Collapse line="1114" />
+			<Collapse line="1136" />
+			<Collapse line="1158" />
+			<Collapse line="1180" />
+			<Collapse line="1206" />
+			<Collapse line="1220" />
+			<Collapse line="1223" />
+			<Collapse line="1226" />
+			<Collapse line="1267" />
+			<Collapse line="1325" />
+			<Collapse line="1333" />
+			<Collapse line="1346" />
 		</Folding>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3320" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="LibreriaCalculadora.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2289" topLine="65" />
+		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
