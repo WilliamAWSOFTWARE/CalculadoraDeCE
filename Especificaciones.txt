@@ -1,0 +1,25 @@
+Calculador de Circuito Eléctrico
+Durante las clases de Circuito 1, una de las principales habilidades que tenemos que desarrollar como ingenieros es el análisis de circuitos eléctricos en serie, paralelo o con ambas características combinadas en un mismo circuito. 
+Nos dimos cuenta de que, al momento de aplicar las fórmulas y leyes correspondientes para dicho análisis, al utilizar una calculadora científica común, nos resultaba un problema el uso de las unidades correspondientes, y al momento de necesitarlo, perdíamos el rumbo llegando incluso a cometer errores que nos causaban problemas al continuar con nuestro trabajo.
+Así nos surgió la idea de la creación de una calculadora especial para el cálculo de las resistencias, corriente, voltaje, potencia, tolerancia, % de regulación entre otros valores, utilizando sus unidades y respetando las reglas del algebra y las leyes y teoremas de circuitos (Ley de Ohm, Leyes de Kirchhoff, Divisores de Voltaje y Corriente, entre otros) y poder facilitar el análisis de los circuitos eléctricos, no solo en clases, si no en cualquier ámbito laboral en el que se necesite.
+Dicho proyecto incluirá:
+?	Todas las funciones y el código principal serán hechos en lenguaje C (30%)
+?	Librería con las siguientes funciones (10%)
+•	Calculador de Resistencia Equivalentes en circuitos en serie y paralelo. 
+•	Calculador de la Intensidad. 
+•	Calculador del Voltaje. 
+•	Calculador de Potencia. 
+•	Determinar valor de un resistor según el código de color. 
+•	Calcular porciento de regulación del Voltaje. 
+•	Determinar la constante de resistividad de los materiales conductores (en metros y CMIL). 
+•	Características de los cables de cobre partiendo de su calibre respecto al AWG (Calibre de Alambre Estadounidense).
+?	Almacenamiento de resultados (20%)
+?	Memoria dinámica (20%)
+?	Uso de estructuras (20%)
+El proyecto no incluye:
+?	Resolución de circuitos partiendo de un dibujo.
+?	Plataforma para móviles.
+?	Armado de circuitos en la App.
+?	Solucionador de circuitos.
+?	Resolver circuitos simples.
+?	Modelo del circuito.
