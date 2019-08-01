@@ -72,7 +72,8 @@ char dibujar_resistencia(char g[][20],int cx, int cy){
 }
 void dibujar_grafica(char grafica[][20],int tm){
     system("CLS");
-    printf("CIRCUITO DEFAULT\n");
+    printf("****************************************CIRCUITO****************************************\n");
+    printf("Solo dibujar en las XXX\n\n");
     for(fil=0;fil<tm;fil++){
     for(col=0;col<tm;col++){
         if(grafica[fil][col]=='0'){
@@ -87,8 +88,8 @@ void dibujar_grafica(char grafica[][20],int tm){
             SetConsoleTextAttribute(GetStdHandle (STD_OUTPUT_HANDLE),1);
         }else if(grafica[fil][col]=='E'){
             SetConsoleTextAttribute(GetStdHandle (STD_OUTPUT_HANDLE),105);
-        }else if(grafica[fil][col]==124|| grafica[fil][col]==196){
-            SetConsoleTextAttribute(GetStdHandle (STD_OUTPUT_HANDLE),9);
+        }else if(grafica[fil][col]=='-'|| grafica[fil][col]=='|'){
+            SetConsoleTextAttribute(GetStdHandle (STD_OUTPUT_HANDLE),4);
         }
 
         if(col==0){

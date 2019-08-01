@@ -29,3 +29,21 @@
 
 1564340902 c:\users\william\documents\github\calculadoradece\functions.h
 
+1564674110 source:c:\users\william\desktop\calculadoradece-master\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	"functions.h"
+	<windows.h>
+
+1564674110 c:\users\william\desktop\calculadoradece-master\functions.h
+
+1564674110 source:c:\users\william\desktop\calculadoradece-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	"functions.h"
+	<windows.h>
+

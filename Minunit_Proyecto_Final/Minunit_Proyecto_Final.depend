@@ -26,3 +26,30 @@
 	<stdio.h>
 	<math.h>
 
+1564674110 source:c:\users\william\desktop\calculadoradece-master\proyecto_final\libreria2.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"Libreria2.h"
+
+1564674110 c:\users\william\desktop\calculadoradece-master\proyecto_final\libreria2.h
+
+1564674110 source:c:\users\william\desktop\calculadoradece-master\minunit_proyecto_final\main.c
+	"../Proyecto_Final/Libreria2.h"
+	"minunit.h"
+	<string.h>
+
+1564674110 c:\users\william\desktop\calculadoradece-master\minunit_proyecto_final\minunit.h
+	<Windows.h>
+	<unistd.h>
+	<time.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<string.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<stdio.h>
+	<math.h>
+
